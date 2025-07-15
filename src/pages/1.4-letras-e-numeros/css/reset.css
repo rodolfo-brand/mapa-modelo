@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+    
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/monserrat.ttf') format('ttf');
+}
+
+body {
+    font-family: 'montserrat', monospace;
+}
