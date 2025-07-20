@@ -1,7 +1,7 @@
 .background {
     min-height: 100vh;
     display: flex;
-    background-color: #76836b;
+    background-color: #35335fbe;
     justify-content: center;
     align-items: center;
 }
@@ -9,19 +9,31 @@
 .container {
     min-width: 320px;
     width: 370px;
+    max-height: 667px;
 }
+
 
 .header {
     min-height: 64px;
+    padding: 10px;
+    background-color: #35335f;
+}
+
+.logo {
+    padding: 3px;
+    color: #fff3e6;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #44374e;
+}
+.logo p{
+    
+    
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height:100%;
 }
@@ -49,7 +61,8 @@ nav ul li a:hover {
 }
 
 .main {
-    min-height:530px;
+    min-height:460px;
+    max-height: 460px;
     background-color: #fff3e6;
 }
 
@@ -72,19 +85,9 @@ nav ul li a:hover {
 
     height: 64px;
     color: #fff3e6;
-    background-color: #44374e;
-    font-size: 0.65rem;
+    background-color: #35335f;
+    font-size: 0.7rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.wolf {
-    height: 50px;
-    margin: 10px;
-}
-
-.raven {
-    height: 50px;
-    margin: 10px ;
 }
