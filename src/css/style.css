@@ -26,10 +26,19 @@
     align-items: center;
     justify-content: center;
 }
-.logo p{
-    
-    
+
+.logo {
+    padding: 3px;
+    color: #fff3e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.logo .icon {
+    height: 64px;
+}
+
 
 nav ul {
     display: flex;
